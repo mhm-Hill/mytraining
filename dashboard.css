@@ -1,0 +1,135 @@
+/* ===== خط عربي مناسب ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body { 
+    font-family: 'Cairo', sans-serif; 
+    background: #f0f2f5; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/* ===== الحاوية الرئيسية ===== */
+.container { 
+    width: 90%; 
+    max-width: 1200px;
+    margin: 40px auto; 
+    padding: 20px; 
+    background: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* ===== العناوين ===== */
+h1, h2 { 
+    text-align: center; 
+    color: #333; 
+}
+
+p { 
+    font-size: 16px; 
+    color: #555; 
+    margin: 5px 0; 
+}
+
+/* ===== زر تسجيل الخروج ===== */
+.logout { 
+    float: left; 
+    margin-top: -50px; 
+    padding: 10px 15px; 
+    background: #dc3545; 
+    color: white; 
+    border-radius: 5px; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+.logout:hover { 
+    background: #c82333; 
+}
+
+/* ===== أزرار الإجراءات ===== */
+.actions { 
+    text-align: center; 
+    margin: 25px 0; 
+}
+.actions a { 
+    display: inline-block;
+    padding: 12px 18px; 
+    margin: 5px; 
+    background: #007bff; 
+    color: white; 
+    border-radius: 8px; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: 0.3s;
+}
+.actions a:hover { 
+    background: #0056b3; 
+}
+
+/* ===== تصميم الجدول ===== */
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+th, td { 
+    border: 1px solid #ddd; 
+    padding: 12px; 
+    text-align: center; 
+}
+th { 
+    background: #28a745; 
+    color: white; 
+    font-size: 16px;
+}
+tr:nth-child(even){ 
+    background: #f9f9f9; 
+}
+tr:hover { 
+    background: #f1f1f1; 
+}
+
+/* ===== أزرار الإجراءات داخل الجدول ===== */
+.table-action a { 
+    padding: 6px 10px; 
+    background: #17a2b8; 
+    color: white; 
+    border-radius: 5px; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+.table-action a:hover { 
+    background: #138496; 
+}
+
+/* ===== تنسيق الروابط العادية ===== */
+a { 
+    color: #007bff; 
+    text-decoration: none; 
+}
+a:hover { 
+    text-decoration: underline; 
+}
+
+/* ===== رسائل الخطأ والنجاح ===== */
+.error { color: #dc3545; margin-top:10px; text-align:center; }
+.success { color: #28a745; margin-top:10px; text-align:center; }
+
+/* ===== تنسيقات إضافية للنماذج ===== */
+input, select, textarea, button {
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+}
+button:hover { opacity: 0.9; }
